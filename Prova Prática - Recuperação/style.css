@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin-top: 70px;
+}
+
+header h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;    
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+    padding: 20px;
+}
+.navbar{
+    border: 1px #000;
+    border-style: solid;
+    margin-left: 850px;
+    margin-right: 850px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.foto1 { grid-area: foto1; }
+.foto2 { grid-area: foto2; }
+.foto3 { grid-area: foto3; }
+.foto4 { grid-area: foto4; }
+
+.galery-container{
+    display: grid;
+    grid-template-areas:
+    'foto1 foto1 foto2'
+    'foto3 foto4 foto2';
+    grid-gap: 10px;
+}
+
+/* .icon1 { grid-area: icon1; }
+.icon2 { grid-area: icon2; }
+
+.icon-container{
+    display: grid;
+    grid-template-areas:
+    'icon1 icon1 icon2'
+    'icon3 icon4 icon2';
+    grid-gap: 10px;
+} */
+
+footer{
+    margin-top: 70px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
